@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 700px;
+    background-color: tomato;
+}
+
+.header {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+form input[name='task'] {
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+form input[name='add'] {
+    width: 20%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+form input[name='add']:hover {
+    background-color: #888;
+    cursor: pointer;
+    transition: 100ms;
+    color: #fff;
+}
